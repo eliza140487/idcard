@@ -1,0 +1,92 @@
+body{
+    margin-top: 100px;
+    padding: 200px;
+    background-color: rgb(124, 73, 172);
+
+   
+}
+.card {
+     width: 200px;
+        height: 300px;
+        border-radius: 20px;
+        padding: 5px;
+        background-color: aquamarine; 
+        border: 6px solid rgb(49, 37, 37);   
+ }
+ .name-card{
+   
+ }
+ .img-avator{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+ }
+ .name1{
+  margin-left: 25px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+    margin-right: 20px;
+  border-bottom: 4px solid rgb(105, 103, 107);
+ }
+ .icon li{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;  
+    margin-top: 6px;
+    margin-right: -8px;
+    transition: 1s;
+    
+    
+ } 
+ .icon li a i {
+    font-size: 30px;
+    margin-top: 6px;
+    color:rgb(122, 10, 104);
+    transition: 1s;
+    margin-left: 8px;
+    list-style: none;
+    height: 50px;
+    width: 50px;
+ }
+.gmail{
+   margin-top: 10px;
+   margin-left: 10px;
+   color: rgb(53, 37, 37);
+}
+.adress{
+    margin-top: 4px;
+    color: rgb(121, 118, 118);
+}
+.icon li a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in;
+   
+}
+
+    .icon li a :hover::before{
+        border-radius: 100%;
+        transform: rotate(360deg);
+        /* box-shadow: 2px 2px 1px 1px  rgb(172, 23, 127); */
+    }  
+    /* @media (max-width:500px){
+        .icon{
+            background-color: rgb(172, 89, 89);
+            width: 200px;
+            height: 300px;
+        }
+    
+    .icon li{
+        margin-right: 40px;
+    }
+    } */
